@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: #070A26E8;
+}
+
+.NavBar ul li{
+  display: inline;
+}
+
+/* home css  */
+
+.search{
+  margin-right: 40px; 
+  display:flex; 
+  height: 50px;
+  align-items: center;
+  margin-top:30px;
+  width: 520px; 
+  background:rgba(255, 255, 255, 0.11); 
+  padding: 10px 20px;
+
+}
+
+.search a{
+  color: rgba(147, 147, 147, 0.72);
+}
+
+.search-icon{
+  font-size: 20px;
+}
+
+.search-box{
+  background: transparent;
+  border: none;
+}
+
+.ant-input:focus, .ant-input-focused{
+  border-color: transparent;
+  box-shadow: none !important;
+  border-inline-end-width: 0px;
+  outline: 0;
+}
+
+
+
+.search-box::placeholder{
+  border: none;
+  outline: none;
+  color: #939393B8;
+  font-size: 12px;
+}
+
+.btn-1{
+  display: flex;
+  margin-top: 30px;
+  background:#001d66; 
+  color:white; 
+  border:0; 
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+.priceList li{
+  list-style: none;
+}
+
+.priceList li a{
+  color: white;
+}
+
+.price p{
+  color: #CDCDCD94;
+}
+
+.Change ul li{
+  margin-left: 20px; 
+  display: inline;
+  font-size: 18px;
+}
+
+.Change ul li a{
+  color: white;
+}
+
+.search-right{
+  margin-left: 20px; 
+  display:flex; 
+  height: 50px;
+  width: 250px;
+  align-items: center;
+  background:rgba(255, 255, 255, 0.11); 
+  padding: 10px 20px;
+
+}
+
+.days{
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.days h1{
+  color: white;
+}
+
+.days p{
+  color: rgba(173, 173, 173, 0.85);
+}
