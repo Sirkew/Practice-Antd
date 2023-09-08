@@ -13,6 +13,17 @@ body{
   display: inline;
 }
 
+.NavBar ul li a{
+  color: white;
+}
+
+.NavBar ul li a:hover{
+  color: #CDCDCD94;
+}
+
+
+
+
 /* home css  */
 
 .search{
@@ -62,8 +73,8 @@ body{
   background:#001d66; 
   color:white; 
   border:0; 
-  padding: 10px 30px;
-  font-size: 20px;
+  padding: 13px 30px;
+  font-size: 15px;
 }
 
 .priceList li{
